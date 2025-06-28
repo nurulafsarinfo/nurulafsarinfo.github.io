@@ -27,7 +27,7 @@ const Hero = () => {
               <span className="text-[#8a31af] text-2xl">____I'm</span> Nurul Afsar
             </h1>
 
-            <p className="text-xl md:text-2xl font-medium text-[#f3e00e]">
+            <p className="text-2xl md:text-3xl font-medium text-[#f3e00e]">
               <Typewriter
                 options={{
                   strings: designations,

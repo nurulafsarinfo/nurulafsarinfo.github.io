@@ -3,6 +3,8 @@ import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
 import About from './Components/About';
 import Skills from './Components/Skills';
+import Education from './Components/Education';
+import Projects from './Components/Projects';
 
 const App = () => {
   return (
@@ -12,6 +14,8 @@ const App = () => {
         <Hero></Hero>
         <About></About>
         <Skills></Skills>
+        <Education></Education>
+        <Projects></Projects>
       </main>
     </div>
   );
