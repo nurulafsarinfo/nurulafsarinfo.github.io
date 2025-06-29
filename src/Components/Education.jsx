@@ -25,7 +25,7 @@ const Education = () => {
         <section className="py-12">
             <div className="max-w-6xl mx-auto px-4">
 
-                <div className='flex flex-col gap-1 items-center mb-8'>
+                <div data-aos="zoom-in" className='flex flex-col gap-1 items-center mb-8'>
                     <h2 className='text-3xl font-bold'>Education</h2>
                     <div className='flex gap-2'>
                         <div className='w-20 h-0.5 -ml-4 bg-amber-300'></div>
@@ -36,20 +36,23 @@ const Education = () => {
 
 
                 <div className="grid gap-8 md:grid-cols-2 ">
-                    {educationData.map((edu, index) => (
-                        <div
+                    {educationData.map((edu, index) => {
+                        const aosType = index % 2 === 0 ? 'fade-right' : 'fade-left';
+                        return (<div
                             key={index}
+                            data-aos={aosType}
                             className="card bg-[#020b29] shadow-lg hover:shadow-xl transition-shadow rounded-lg p-6 cursor-default"
                         >
                             <h3 className="text-xl font-semibold text-primary">{edu.degree}</h3>
                             <p className="italic text-gray-600 mt-2">{edu.institution}</p>
-                            <p className="text-sm font-medium text-gray-500 mt-1">{edu.depertment} { edu.GPA && `(${edu.GPA})`}</p>
+                            <p className="text-sm font-medium text-gray-500 mt-1">{edu.depertment} {edu.GPA && `(${edu.GPA})`}</p>
                             <p className="text-sm font-medium text-gray-500 mt-1">{edu.duration}</p>
                             {edu.description && (
                                 <p className="mt-3 text-gray-700">{edu.description}</p>
                             )}
                         </div>
-                    ))}
+                        )
+                    })}
                 </div>
             </div>
         </section>
