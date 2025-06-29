@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import img1 from '../assets/myProfile-Logo.png';
 import img2 from '../assets/EnglishJanala.png';
 import img3 from '../assets/GardenHub.png';
 import img4 from '../assets/StadySphere.png';
