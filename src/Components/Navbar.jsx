@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/myProfile-Logo.png";
+import logo from "../assets/myProfileLogo.png";
 const Navbar = () => {
 
     const navLinks = (
@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="navbar bg-[#080d1d]/60 backdrop-blur-2xl border-b border-[#8a31af]/50 text-white fixed top-0 z-50 shadow-md px-12">
             <div className="navbar-start">
                 <a href="#home">
-                    <img src={logo} alt="Profile logo" className="w-12 h-12 rounded-full " />
+                    <img src={logo} alt="Profile logo" className="w-18 h-12 " />
                 </a>
                 {/* <a href="#home" className="text-2xl">Nurul.dev</a> */}
             </div>
@@ -32,9 +32,9 @@ const Navbar = () => {
             </div>
 
             <div className="navbar-end space-x-2">
-                {/* <a href="/Afsar_Resume.pdf"
+                <a href="/Afsar_Resume.pdf"
                     download
-                    className="btn btn-sm bg-[#1348e7] text-white border-none hover:bg-blue-800 transition duration-300">Download Resume</a> */}
+                    className="btn btn-sm bg-[#1348e7] text-white border-none hover:bg-blue-800 transition duration-300">Download Resume</a>
 
                 {/* Form Mobile Dropdown  */}
                 <div className="dropdown lg:hidden relative">
