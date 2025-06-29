@@ -15,7 +15,7 @@ const Contact = () => {
                         <div className='w-2 h-0.5 bg-amber-300'></div>
                     </div>
                 </div>
-                <div className="grid gap-6 md:grid-cols-3 text-left border">
+                <div className="grid gap-6 md:grid-cols-3 text-left">
                     {/* Email */}
                     <div className="card shadow-md bg-[#020b29] p-6">
                         <div className="flex items-center gap-3">
