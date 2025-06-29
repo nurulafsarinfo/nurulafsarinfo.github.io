@@ -8,7 +8,7 @@ import { FaBug } from 'react-icons/fa'
 
 const About = () => {
     return (
-        <div data-aos="fade-up" className='w-11/12 mx-auto bg-[#020b29] rounded-2xl p-4 md:p-8 my-12'>
+        <div data-aos="fade-up" id='about' className="scroll-mt-20 w-11/12 mx-auto bg-[#020b29] rounded-2xl p-4 md:p-8 my-12">
             <div data-aos="zoom-in" className='flex flex-col items-center mb-8'>
                 <p className='text-3xl font-bold'>About Me</p>
                 <div className='flex gap-2'>

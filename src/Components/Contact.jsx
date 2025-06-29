@@ -3,7 +3,7 @@ import { MdEmail, MdPhone, MdWhatsapp } from 'react-icons/md';
 
 const Contact = () => {
     return (
-        <section id="contact" className="py-12">
+        <section id="contact" className="scroll-mt-20 py-12">
 
             <div className="max-w-[1100px] mx-auto px-4 text-center">
 

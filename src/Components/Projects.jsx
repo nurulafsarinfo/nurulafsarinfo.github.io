@@ -194,7 +194,7 @@ const Projects = () => {
     }
 
     return (
-        <div className='w-11/12 mx-auto my-12'>
+        <div id='projects' className="w-11/12 scroll-mt-20  mx-auto my-12">
             <div data-aos="zoom-in" className='flex flex-col gap-1 items-center mb-8'>
                 <h2 className='text-3xl font-bold'>Projects</h2>
                 <div className='flex gap-2'>

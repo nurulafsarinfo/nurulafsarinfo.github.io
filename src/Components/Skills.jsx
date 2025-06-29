@@ -21,7 +21,7 @@ const skills = [
 
 const Skills = () => {
     return (
-        <div className='w-11/12 mx-auto py-12'>
+        <div id='skills' className="w-11/12 scroll-mt-20 mx-auto py-12">
 
             <div data-aos="zoom-in" className='flex flex-col gap-1 items-center mb-8'>
                 <h2 className='text-3xl font-bold'>My Skills</h2>

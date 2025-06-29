@@ -12,7 +12,7 @@ const Hero = () => {
   ];
 
   return (
-    <section className="w-11/12 max-w-7xl mx-auto py-12 md:py-20">
+    <section id='home' className="w-11/12 scroll-mt-20 max-w-7xl mx-auto py-12 md:py-20">
       <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-10">
         
         {/* Left Side: Text Content */}
@@ -51,8 +51,8 @@ const Hero = () => {
           </div>
 
           <div className='flex gap-4 my-4 md:justify-start justify-center'>
-            <a href=""><FaLinkedin size={38} fill='#1952ff'/></a>
-            <a href=""><FaGithub size={38} fill='#1952ff'/></a>
+            <a href="https://www.linkedin.com/in/nurul-afsar-info/" target='_blank'><FaLinkedin size={38} fill='#1952ff'/></a>
+            <a href="https://github.com/nurulafsarinfo" target='_blank'><FaGithub size={38} fill='#1952ff'/></a>
             <a href="#" title='Comming Soon'><FaXTwitter size={38} fill='#1952ff'/></a>
           </div>
         </div>

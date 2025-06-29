@@ -7,6 +7,7 @@ const Navbar = () => {
             <li><a href="#home" className="text-white"> Home </a></li>
             <li><a href="#about" className="text-white"> About </a></li>
             <li><a href="#skills" className="text-white"> Skills </a></li>
+            <li><a href="#education" className="text-white"> Education </a></li>
             <li><a href="#projects" className="text-white"> Projects </a></li>
             <li><a href="#contact" className="text-white"> Contact </a></li>
         </>
@@ -14,7 +15,7 @@ const Navbar = () => {
 
 
     return (
-        <div className="navbar bg-[#080d1d] border-b border-[#8a31af]/50 text-white fixed top-0 z-50 shadow-md px-8">
+        <div className="navbar bg-[#080d1d]/60 backdrop-blur-2xl border-b border-[#8a31af]/50 text-white fixed top-0 z-50 shadow-md px-12">
             <div className="navbar-start">
                 <a href="#home">
                     <img src={logo} alt="Profile logo" className="w-12 h-12 rounded-full " />

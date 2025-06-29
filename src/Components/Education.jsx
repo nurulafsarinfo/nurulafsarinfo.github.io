@@ -22,7 +22,7 @@ const educationData = [
 
 const Education = () => {
     return (
-        <section className="py-12">
+        <section id="education" className="scroll-mt-20 py-12">
             <div className="max-w-6xl mx-auto px-4">
 
                 <div data-aos="zoom-in" className='flex flex-col gap-1 items-center mb-8'>
@@ -37,10 +37,10 @@ const Education = () => {
 
                 <div className="grid gap-8 md:grid-cols-2 ">
                     {educationData.map((edu, index) => {
-                        const aosType = index % 2 === 0 ? 'fade-right' : 'fade-left';
+                        // const aosType = index % 2 === 0 ? 'fade-right' : 'fade-left';
                         return (<div
                             key={index}
-                            data-aos={aosType}
+                            data-aos="fade-up"
                             className="card bg-[#020b29] shadow-lg hover:shadow-xl transition-shadow rounded-lg p-6 cursor-default"
                         >
                             <h3 className="text-xl font-semibold text-primary">{edu.degree}</h3>
