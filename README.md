@@ -1,12 +1,56 @@
-# React + Vite
+# 🌐 Nurul Afsar | Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal **portfolio website** showcasing my projects, skills, and development journey as a **Front End based MERN Stack Developer**.  
+Built with **React + Vite** and styled using **Tailwind CSS**, this portfolio is optimized for SEO and social media sharing.
 
-Currently, two official plugins are available:
+![Portfolio Preview](https://nurulafsar-webdev.netlify.app/preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Live Demo
+🔗 **[View Portfolio](https://nurulafsar-webdev.netlify.app/)**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+- 📄 **Home, About, Skills, Projects, Contact** sections
+- 🎯 Responsive design for all devices (mobile, tablet, desktop)
+- 🔗 Smooth navigation using anchor links
+- 📸 Social media sharing preview (Open Graph & Twitter Card)
+- 🖼️ SEO optimized with proper meta tags, title, and favicon
+- 📂 Projects section with live demo & GitHub links
+- ⚡ Built with Vite for fast performance
+
+---
+
+## 🛠️ Tech Stack
+**Frontend:**
+- React.js
+- Tailwind CSS
+- Vite
+
+**Others:**
+- AOS (Animate on Scroll)
+- Google Fonts (Inter)
+- Netlify for deployment
+
+---
+
+## 📷 Meta & SEO Details
+This portfolio includes:
+- **Favicon**: `/myProfile-Logo.png`
+- **Meta Title**: `Nurul Afsar | Front End Developer`
+- **Meta Description**: Short intro about my expertise
+- **Open Graph Tags** for Facebook
+- **Twitter Card** preview
+- **Canonical URL** for SEO
+
+---
+
+## Contact
+- **Name**: `Nurul Afsar`
+- **Mobile**: `+8801612452826`
+- **Whatsapp**: `+8801633355971`
+- **Email**: `mdnurulafsar123afsar@gmail.com`
+
+---
