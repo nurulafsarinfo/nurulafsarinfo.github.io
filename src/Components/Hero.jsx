@@ -6,9 +6,9 @@ import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
 const Hero = () => {
   const designations = [
+    "Front-End Developer",
+    "Full Stack Developer (MERN)",
     "Creative Web Developer & Designer",
-    "Passionate Front-End Developer",
-    "Full Stack MERN Enthusiast"
   ];
 
   return (
@@ -46,12 +46,12 @@ const Hero = () => {
               download
               className="inline-block mt-8 px-6 py-3 bg-[#1348e7] text-white font-semibold rounded-full hover:bg-[#112fb4] transition duration-300"
             >
-              Download Resume
+              📥 Download Resume
             </a>
           </div>
 
           <div className='flex gap-4 my-4 md:justify-start justify-center'>
-            <a href="https://www.linkedin.com/in/nurul-afsar-info/" target='_blank'><FaLinkedin size={38} fill='#1952ff'/></a>
+            <a href="https://www.linkedin.com/in/nurul-afsar-060285379/" target='_blank'><FaLinkedin size={38} fill='#1952ff'/></a>
             <a href="https://github.com/nurulafsarinfo" target='_blank'><FaGithub size={38} fill='#1952ff'/></a>
             <a href="#" title='Comming Soon'><FaXTwitter size={38} fill='#1952ff'/></a>
           </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { MdEmail, MdPhone, MdWhatsapp } from 'react-icons/md';
+import ContactUs from './ContactUs';
 
 const Contact = () => {
     return (
@@ -15,17 +16,12 @@ const Contact = () => {
                         <div className='w-2 h-0.5 bg-amber-300'></div>
                     </div>
                 </div>
-                <div className="grid gap-6 md:grid-cols-3 text-left">
-                    {/* Email */}
-                    <div className="card shadow-md bg-[#020b29] p-6">
-                        <div className="flex items-center gap-3">
-                            <MdEmail className="text-4xl text-primary" />
-                            <div>
-                                <h4 className="text-lg font-semibold">Email</h4>
-                                <p className=" text-gray-500">mdnurulafsar123afsar@gmail.com</p>
-                            </div>
-                        </div>
-                    </div>
+
+
+                <div className='grid md:grid-cols-2 gap-6'>
+
+                  <div className="flex flex-col text-left gap-4 md:gap-14">
+ 
 
                     {/* Phone */}
                     <div className="card bg-[#020b29] shadow-md p-6">
@@ -48,9 +44,23 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                </div>
 
-                {/* Optional: Contact form or message button can be added here */}
+                                       {/* Email */}
+                    <div className="card shadow-md bg-[#020b29] p-6">
+                        <div className="flex items-center gap-3">
+                            <MdEmail className="text-4xl text-primary" />
+                            <div>
+                                <h4 className="text-lg font-semibold">Email</h4>
+                                <p className=" text-gray-500">mdnurulafsar123afsar@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                  </div>
+
+                 {/* Contact form */}
+                 <ContactUs></ContactUs>
+                </div>
             </div>
         </section>
     );
