@@ -42,7 +42,7 @@ const Hero = () => {
 
           <div>
             <a
-              href="/resume.pdf" // change this to your resume path
+              href="/Nurul_Afsar Resume.pdf" // change this to your resume path
               download
               className="inline-block mt-8 px-6 py-3 bg-[#1348e7] text-white font-semibold rounded-full hover:bg-[#112fb4] transition duration-300"
             >

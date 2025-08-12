@@ -32,7 +32,7 @@ const Navbar = () => {
             </div>
 
             <div className="navbar-end space-x-2">
-                <a href="/Afsar_Resume.pdf"
+                <a href="/Nurul_Afsar Resume.pdf"
                     download
                     className="btn btn-sm bg-[#1348e7] text-white border-none hover:bg-blue-800 transition duration-300">Download Resume</a>
 
